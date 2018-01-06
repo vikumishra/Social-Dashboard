@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="top">
+    <div class="container" id="wrapper">
+      <!--header starts-->
+      <nav class="navbar navbar-default" id="header">
+        <div class="container-fluid">
+
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand white-text" href="#">Friendly</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" >
+              </div>
+              <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="white-text"><img src="images/viku.jpg" height="63.5px" width="63.5px"> Viku</a></li>
+              <li title="Home"><a href="#" class="white-text"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+              <li title="Friend Requests"><a href="#" class="white-text"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a></li>
+              <li title="Messages"><a href="#" class="white-text"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+              <li title="Notifications"><a href="#" class="white-text"><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></a></li>
+              <li title="Help"><a href="#" class="white-text"><span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span></a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Create Page</a></li>
+                  <li><a href="#">Create Group</a></li>
+                  <li><a href="#">New Groups &nbsp &nbsp &nbsp<span class="badge">12</span></a></li>
+                  <li><a href="#">Create Ads</a></li>
+                  <li><a href="#">Advertising on Facebook</a></li>
+                  <li><a href="#">Activity Log&nbsp &nbsp &nbsp<span class="badge">22</span></a></li>
+                  <li><a href="#">News Feed Prefrences</a></li>
+                  <li><a href="#">Settings</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Sign out</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+<!--header Ends -->
+<div class="row">
+  <div class=" hidden-xs col-sm-4 col-md-3">
+    <div id="menu">
+          <ul class="nav nav-pills nav-stacked">
+            <li role="presentation"><a href="#"><img src="images/viku.jpg" height="53.5px" width="53.5px"> Viku Mishra</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-menu-hamburger newsfeedicon" aria-hidden="true"></span> News Feed</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-envelope " style="Color:#e2ad0b" aria-hidden="true"></span> Messenger</a></li>
+
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading">SHORTCUTS</p>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-bed" aria-hidden="true" style="color:red"></span> Buses &nbsp &nbsp &nbsp<span class="badge">42</span></a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-check" aria-hidden="true" style="Color:#13c1a4"></span> Project Format</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-gift" aria-hidden="true" style="color:pink"></span> Hustile Ambassadors  &nbsp &nbsp &nbsp<span class="badge">20</span></a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-cutlery" aria-hidden="true" style="color:#0bd8e2"></span> Restaurants  &nbsp &nbsp &nbsp<span class="badge">7</span></a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true" style="color:blue"></span> Hackathon Hackers  &nbsp &nbsp &nbsp<span class="badge">128</span></a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-book" aria-hidden="true" style="color:purple"></span> Books  &nbsp &nbsp &nbsp<span class="badge">42</span></a></li>
+          </ul>
+          <ul class="nav nav-pills nav-stacked">
+            <p class="list-heading">EXPLORE</p>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-earphone" aria-hidden="true" style="Color:#16c113"></span> Contacts</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="Color:#d30c5f"></span> Events</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-file" aria-hidden="true" style="Color:#e2360b"></span> Pages</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true" style="Color:#0be2c9"></span> Insights</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true" style="Color:#bc6970"></span> Friend Lists</a></li>
+            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-time" aria-hidden="true" style="color:#132dc1"></span> On This Day</a></li>
+          </ul>
+    </div>
+  </div>
+  <div class=" col-xs-12 col-sm-8 col-md-6">
+    <div id="main">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title"><a href="#"><img src="images/laughingcolours.png" height="51.5px" width="51.5px"> <b>Laughing Colours</b></a></h3>
+              </div>
+                <div class="panel-body"><!--Text Post-->
+                  <div><h3 class="text-posts">Searching for a new Laptop Online is basically forcing your current computer to dig its own grave.</h3></div>
+                  <div>
+                    <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                    <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                    <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                  </div>
+                </div>
+                 <div class="panel-footer">
+                   <div class="media">
+                     <div class="media-left">
+                       <a href="#">
+                         <img src="images/shubham.png" height="31.5px" width="31.5px">
+                       </a>
+                     </div>
+                     <div class="media-body">
+                       <p class="comment"><span><a href="#">Shubham Sharma
+                       </a></span>   Haha And then they say "old is gold"</p>
+                       <div>
+                         <small>
+                         <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>
+                       </small>
+                       </div>
+                     </div>
+                   </div>
+              <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a>  </div>
+              </div>
+
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h3 class="panel-title"><a href="#"><img src="images/laughingcolours.png" height="51.5px" width="51.5px"> <b>Laughing Colours</b></a></h3>
+                </div>
+                    <div class="panel-body"><!--Inspirational post  -->
+                      <blockquote>
+                          <p>Dreams Are Not The one Which we watch while Sleeping, Dreams are those for which we quit sleeping</p>
+                          <footer>Dr. APJ Abdul Kalam</footer>
+                      </blockquote>
+                    <div>
+                      <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                      <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                      <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                    </div>
+                  </div>
+                   <div class="panel-footer">
+                     <div class="media">
+                       <div class="media-left">
+                         <a href="#">
+                           <img src="images/vikas.png" height="31.5px" width="31.5px">
+                         </a>
+                       </div>
+                       <div class="media-body">
+                         <p class="comment"><span><a href="#">Vikas Pandey</a></span>   Kalam Sir was a True Legend.. #Respect</p>
+                         <div>
+                           <small>
+                           <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>
+                         </small>
+                         </div>
+                       </div>
+                     </div>
+                     <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a></div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title"><a href="#"><img src="images/biju.png" height="51.5px" width="51.5px"> <b>Yogesh Bansal</b></a></h3>
+                  </div>
+                    <div class="panel-body"><!--Image Post-->
+                      <div class="image-post">
+                      <img src="images/abc.jpg" class="img-responsive" alt="Responsive image">
+                    </div>
+                      <div>
+                        <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                        <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                        <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                      </div>
+                    </div>
+                     <div class="panel-footer">
+                       <div class="media">
+                         <div class="media-left">
+                           <a href="#">
+                              <img src="images/viku.jpg" height="31.5px" width="31.5px">
+                           </a>
+                         </div>
+                         <div class="media-body">
+                        <p class="comment"><span><a href="#">Viku Mishra</a></span>   #bhai-bhai</p>
+                        <div>
+                          <small>
+                          <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>
+                        </small>
+                        </div>
+                         </div>
+                       </div>
+                       <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a></div>
+                  </div>
+
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title"><a href="#"><a href="#"><img src="images/shubham.png" height="51.5px" width="51.5px"> <b>Shubham Sharma</b></a></h3>
+                    </div>
+                      <div class="panel-body"><!--Video Post-->
+                                                      <div class="embed-responsive embed-responsive-4by3">
+                              <iframe class="embed-responsive-item" src="images/video1.mp4"></iframe>
+                            </div>
+                        <div>
+                          <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                          <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                          <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                        </div>
+                      </div>
+                       <div class="panel-footer">
+                         <div class="media">
+                           <div class="media-left">
+                             <a href="#">
+                                 <img src="images/viku.jpg" height="31.5px" width="31.5px">
+                             </a>
+                           </div>
+                           <div class="media-body">
+                             <p class="comment"><span><a href="#">Viku Mishra</a></span>  Haha cha gya Rasgule tu to</p>
+                                 <div>
+                                   <small>
+                                   <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>
+                                 </small>
+                                 </div>
+                           </div>
+                         </div>
+                         <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a></div>
+                     </div>
+
+
+
+                     <div class="panel panel-default">
+                       <div class="panel-heading">
+                         <h3 class="panel-title"><a href="#"><img src="images/viku.jpg" height="51.5px" width="51.5px"> <b>Viku Mishra was feeling excited</b></a></h3>
+                       </div>
+                         <div class="panel-body"><!--Image Post-->
+                           <div class="image-post">
+                           <img src="images/teddybear.jpg" class="img-responsive" alt="Responsive image">
+                           <p>Wish You Many Many return of the day... Happy Birthday Teddy Bear... Stay Blessed .. Keep Smiling Bro...</p>
+                         </div>
+                           <div>
+                             <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                             <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                             <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                           </div>
+                         </div>
+                          <div class="panel-footer">
+                            <div class="media">
+                              <div class="media-left">
+                                <a href="#">
+                                   <img src="images/ayush.png" height="31.5px" width="31.5px">
+                                </a>
+                              </div>
+                              <div class="media-body">
+                             <p class="comment"><span><a href="#">Ayush Kataria</a></span>   Thnku So much Mishre</p>
+                             <div>
+                               <small>
+                               <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>
+                             </small>
+                             </div>
+                              </div>
+                            </div>
+                            <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a></div>
+                       </div>
+
+                     <!--new post-->
+
+                                            <div class="panel panel-default">
+                                              <div class="panel-heading">
+                                                <h3 class="panel-title"><a href="#"><img src="images/bachpan.jpg" height="51.5px" width="51.5px"> <b>Bachpan Ki Yaadein</b></a></h3>
+                                              </div>
+                                                <div class="panel-body"><!--Image Post-->
+                                                  <div class="image-post">
+                                                  <img src="images/bachpankiyaad.jpg" class="img-responsive" alt="Responsive image">
+                                                </div>
+                                                  <div>
+                                                    <span> <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Like</span>
+                                                    <span> <span class="glyphicon glyphicon-thumbs-down" aria-hidden="true"></span> Dislike</span>
+                                                    <span> <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Comment</span>
+                                                  </div>
+                                                </div>
+                                                 <div class="panel-footer">
+                                                   <div class="media">
+                                                     <div class="media-left">
+                                                       <a href="#">
+                                                          <img src="images/ajay.png" height="31.5px" width="31.5px">
+                                                       </a>
+                                                     </div>
+                                                     <div class="media-body">
+                                              <p class="comment"><span><a href="#">Ajay Khanna</a></span>   Haha</p>
+                                              <div>
+                                              <small>
+                                          <span><a href="#"> like </a><span> <span> <a href="#"> comment </a></span>                                                    </small>
+                                      </div>
+                                   </div>
+                                </div>
+                                                   <a href="#"><a href="#"><img src="images/viku.jpg" height="31.5px" width="31.5px">  <input placeholder="Add a comment...." style="width:90%; padding:5px; margin-top:15px;"></a></div>
+                                              </div>
+                     <!--new post ends here-->
+
+      </div>
+  </div>
+  <div class=" hidden-xs hidden-sm col-md-3">
+    <div id="sidebar">
+              <div>
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                  <li role="presentation" class="active"><a href="#top" aria-controls="home" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-new-window" aria-hidden="true"></span></a></li>
+                  <li role="presentation"><a href="#education" aria-controls="profile" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-education" aria-hidden="true"></span></a></li>
+                  <li role="presentation"><a href="#sports" aria-controls="messages" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-knight" aria-hidden="true"></span></a></li>
+                  <li role="presentation"><a href="#Movies" aria-controls="messages" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span></a></li>
+                  <li role="presentation"><a href="#Bussiness" aria-controls="messages" role="tab" data-toggle="tab"> <span class="glyphicon glyphicon-briefcase" aria-hidden="true"></span></a></li>
+                </ul>
+
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div role="tabpanel"class="tab-pane active" ><ul class="list-group">
+                                                  <div class="list-group">
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Maharashtra Bandh</h5>
+                                <small>30 minutes ago ago</small>
+                              </div>
+                              <p class="mb-1">Maharashtra Bandh Ends After Protest,Clashes,Arson Rock State</p>
+                              <small>The Hindu</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Triple Talaq Bill</h5>
+                                <small class="text-muted">2 hours ago</small>
+                              </div>
+                              <p class="mb-1">Rajya Sabha Remains Undecided On The Fate Of Triple Talaq Bill</p>
+                              <small class="text-muted">Times of India</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">National</h5>
+                                <small class="text-muted">4 hours ago</small>
+                              </div>
+                              <p class="mb-1">Israel's Rafael Says India has cancelled order for Spike-Anti Tank Missiles</p>
+                              <small class="text-muted">The Tribune</small>
+                              </a>
+                              </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="education">
+                                              <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">NEET PG:2018</h5>
+                                <small>1 day ago</small>
+                              </div>
+                              <p class="mb-1">Along with Admit Card Aspirants have to carry documents that are mentioned on the card.</p>
+                              <small>Indian Express</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">CBSE UGC NET 2018</h5>
+                                <small class="text-muted">6 hours  ago</small>
+                              </div>
+                              <p class="mb-1">A total of 40,9439 male 519557 female candidates  for UGC NET exam.</p>
+                              <small class="text-muted">The Hindu</small>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                                <h5 class="mb-1">Punjab: Schools to open late due to fog </h5>
+                                <small class="text-muted">8 hours ago</small>
+                              </div>
+                              <p class="mb-1">Ludhiana Additional Deputy Commisioner ordered that schools would open from Jan 3</p>
+                              <small class="text-muted">The Times Of India</small>
+                            </a>
+                          </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="sports">
+                                <div class="list-group">
+                                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">Cricket</h5>
+                                      <small>1 day ago</small>
+                                    </div>
+                                    <p class="mb-1">Dhawan fits for first test against South Africa , Jadega down with Viral illness</p>
+                                    <small>Times of India</small>
+                                  </a>
+                                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">Footbal</h5>
+                                      <small class="text-muted">3 days ago</small>
+                                    </div>
+                                    <p class="mb-1">EPL: Crstal Palace puts a Spoke in Manchester's City wheel</p>
+                                    <small class="text-muted">The Hindu</small>
+                                  </a>
+                                  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                                    <div class="d-flex w-100 justify-content-between">
+                                      <h5 class="mb-1">Football Worldcup</h5>
+                                      <small class="text-muted">5 days ago</small>
+                                    </div>
+                                    <p class="mb-1">Host nation Russia will face Saudi Arabia in the Opening match on June 14</p>
+                                    <small class="text-muted">Indian Express</small>
+                                  </a>
+                                </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="Movies">
+                                                  <div class="list-group">
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                              <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">TZH on high note</h5>
+                              <small>2 days ago</small>
+                              </div>
+                              <p class="mb-1">Tiger Zinda Hai Crosses 100 crore on 5th day of its release.</p>
+                              <small>The Indian Express</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">Sharukh as dwarf</h5>
+                              <small class="text-muted">5 hours ago</small>
+                              </div>
+                              <p class="mb-1">Sharukh Khan will play the role of dwarf in his upcoming movie Zero</p>
+                              <small class="text-muted">The Hindu</small>
+                              </a>
+                              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                              <div class="d-flex w-100 justify-content-between">
+                              <h5 class="mb-1">2.0 in April</h5>
+                              <small class="text-muted">3 days ago</small>
+                              </div>
+                              <p class="mb-1">Rajnikanth And Akshay Kumar Starer 2.0 will release in April this year.Trailer to be out soon.</p>
+                              <small class="text-muted">Times Of India</small>
+                              </a>
+                              </div>
+                  </div>
+                  <div role="tabpanel" class="tab-pane" id="Bussiness">
+                                          <div class="list-group">
+                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                           <div class="d-flex w-100 justify-content-between">
+                             <h5 class="mb-1">GDP Rises</h5>
+                             <small>2 Hours ago</small>
+                           </div>
+                           <p class="mb-1">India's GDP growth to slip below 7% this fiscal says Experts.</p>
+                           <small>The Indian Express</small>
+                         </a>
+                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                           <div class="d-flex w-100 justify-content-between">
+                             <h5 class="mb-1">Market Ends Flat</h5>
+                             <small class="text-muted">5 minutes ago</small>
+                           </div>
+                           <p class="mb-1">The Sensex Opened a Share Higher at 33929.61 and advanced to 33998.37 before falling ,to a low of 33765.43</p>
+                           <small class="text-muted">The Hindu</small>
+                         </a>
+                         <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                           <div class="d-flex w-100 justify-content-between">
+                             <h5 class="mb-1">Good News</h5>
+                             <small class="text-muted">2 days ago</small>
+                           </div>
+                           <p class="mb-1">Rupee starts on a better note in 2018 , up 5 paise against Dollar</p>
+                           <small class="text-muted">The Hindu</small>
+                         </a>
+                       </div>
+                  </div>
+                </div>
+
+               </div>
+
+    </div>
+  </div>
+</div>
+<!--footer starts-->
+<footer>
+<ul class="nav nav-pills pull-right">
+    <li role="presentation" ><a href="#">About us</a></li>
+    <li role="presentation"><a href="#">Home</a></li>
+    <li role="presentation"><a href="#">Privacy</a></li>
+    <li role="presentation"><a href="#">Advertising</a></li>
+    <li role="presentation"><a href="#">Cookies</a></li>
+    <li role="presentation"><a href="#">Ad Choices</a></li>
+    <li role="presentation"><a href="#">Feedback</a></li>
+    <li role="presentation"><a href="#top">Go Top</a></li>
+</ul>
+</footer>
+<!--footer Ends-->
+
+
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

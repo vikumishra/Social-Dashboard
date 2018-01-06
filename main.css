@@ -1,0 +1,74 @@
+#header{
+  background-color: #4267b2;
+  color: white;
+}
+
+ #header .white-text{
+  color: white;
+}
+
+#header ul .glyphicon{
+  font-size: 20px;
+}
+
+/*footer{
+  background-color: rgba(0,0,0,0.87);
+  height: 30px;
+  margin-top: 16px;
+}*/
+
+#wrapper{
+
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar{
+  height: 800px;
+  background-color: #e9ebee;
+}
+
+#main{
+  overflow: auto;
+}
+
+#main::-webkit-scrollbar{
+  display: none;
+}
+
+.list-heading{
+  padding: 20px 15px 0px 15px;
+}
+
+.panel-body .glyphicon{
+  margin-left: 10px;
+  margin-right: 4px;
+}
+
+.text-posts{
+  margin-bottom: 15px;
+  margin-top: 0px;
+  color: #444444;
+}
+
+.image-post img{
+  margin-bottom: 15px;
+}
+
+.comment{
+  margin: 0px;
+}
+
+.media-body{
+  border-bottom: 1px solid grey;
+}
+
+#menu a{
+  color: black;
+}
+
+.newsfeedicon
+{
+  color: skyblue;
+}
